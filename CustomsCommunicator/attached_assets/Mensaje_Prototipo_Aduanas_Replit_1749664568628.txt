@@ -1,0 +1,68 @@
+Hola equipo Replit,
+
+Necesito que desarrollen un prototipo funcional web responsive, tipo dashboard administrativo, para el Sistema de Modernización del Proceso Aduanero en Chile, enfocado especialmente en mejorar la gestión en pasos fronterizos terrestres como el Paso Pehuenche.
+
+Este prototipo debe reflejar visualmente y funcionalmente las siguientes necesidades clave del sistema, integrando interfaces modernas, con diseño limpio y elementos visuales en alta resolución (HD) que representen gráficamente procesos como el control fronterizo, vehículos, documentación, trámites del SAG/PDI, y estadísticas.
+
+🔧 Tipo de prototipo
+- Web responsive (adaptado a escritorio, tablet y móvil)
+- Dashboard interactivo tipo SPA
+- Debe tener apariencia institucional y profesional (simulación de uso por funcionarios públicos y usuarios turistas)
+
+🛠️ Tecnologías sugeridas
+- Frontend: React.js o Vue.js
+- Diseño: Bootstrap o Tailwind CSS
+- Backend simulado: Node.js con Express (sólo si se quiere mostrar flujo real de datos)
+- Base de datos simulada: JSON o mock API
+- Reportes: Simulación de exportación a PDF o Excel (descarga de archivo)
+
+🔁 Flujo funcional e interacciones clave
+1. Inicio de sesión
+   - Solo usuarios con cuenta habilitada pueden ingresar
+   - Simulación de roles: Funcionario Aduana / Turista / Fiscalizador SAG / PDI
+
+2. Panel principal (diferenciado por tipo de usuario)
+   - Accesos rápidos a documentación, estado de trámites y estadísticas
+
+3. Formulario de salida/entrada de menores
+   - Subida o simulación de validación de autorización notarial
+   - Estado del trámite (completo/incompleto/pendiente)
+
+4. Formulario de salida/entrada de vehículos particulares
+   - Completitud de datos del vehículo
+   - Generación de formulario “Salida y Admisión Temporal de Vehículos”
+   - Simulación de envío de formulario al sistema integrado Chile-Argentina
+
+5. Declaración jurada de alimentos y mascotas
+   - Checkbox dinámico de productos ingresados
+   - Validación visual (OK/Error) para prohibidos
+
+6. Control y revisión SAG/PDI
+   - Visualización del estado de revisión (pendiente, en proceso, aprobado)
+   - Registro de observaciones
+
+7. Generación de reportes automáticos
+   - Totales de ingresos y egresos por día, semana y mes
+   - Visualización con gráficos y opción de exportar PDF o Excel
+
+✅ Funcionalidades principales que deben estar implementadas
+- Simulación de flujo completo para turistas (entrada/salida)
+- Flujo completo para funcionarios (control de revisión y validación)
+- Gestión de documentación para menores, vehículos, alimentos y mascotas
+- Reportes estadísticos interactivos
+- Validación de formularios
+- Ayudas contextuales para cada sección
+- Diseño accesible e intuitivo
+- Simulación de múltiples usuarios y sesiones
+- Colores corporativos (basarse en estilo institucional chileno)
+
+🔒 Requisitos técnicos adicionales
+- El sistema debe garantizar confidencialidad (pantallas con mensaje de acceso denegado si el usuario no está logueado)
+- Buen rendimiento y tiempos de respuesta
+- Diseño visual amigable e intuitivo
+- Ayuda contextual (íconos o tooltips explicativos)
+- Simulación de control de versiones (ideal si se documentan cambios de pantalla)
+
+Si necesitan una estructura base de las pantallas o wireframes de ejemplo, puedo proporcionarlos. Este prototipo será utilizado en una evaluación académica para Ingeniería de Software, así que se valora la calidad, coherencia con el caso de Aduanas y una presentación profesional del flujo de trabajo.
+
+Gracias por su ayuda. ¡Espero el prototipo pronto!
